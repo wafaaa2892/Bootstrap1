@@ -5,7 +5,7 @@
 }
 :root{
     --dark-color: #179871;
-    /* --darkLess:#484C52; */
+    --darkLess:#484C52;
     --lightless-color: #f9eee033;
     --bg-color:#000000;
     --white:#bbb;
@@ -186,11 +186,11 @@ nav a{
 .progress{
     padding-left: 2px;
     height: 25px;
-    background-color: var(--bgc);
+    background-color: var(--white);
 }
 .progress .prog1{
     width: 90%;
-    background-color: var(--darkless);
+    background-color: var(--lightless-color);
     animation-name: prog1;
     animation-duration:0.9s;
     animation-iteration-count: infinite;
@@ -204,7 +204,7 @@ nav a{
 }
 .progress .prog2{
     width: 90%;
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
     animation-name: prog2;
     animation-duration:0.9s;
     animation-iteration-count: infinite;
@@ -218,7 +218,7 @@ nav a{
 }
 .progress .prog3{
     width: 90%;
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
     animation-name: prog3;
     animation-duration:0.9s;
     animation-iteration-count: infinite;
@@ -231,14 +231,14 @@ nav a{
     100%{width: 95%;}
 }
 .progress .progress-bar{
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
 }
 
 .boutBtn{
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
 }
 .boutBtn:hover{
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
 }
 .boutBtn1{
     background-color: transparent;
@@ -246,7 +246,7 @@ nav a{
 }
 /* **************** Services section *************** */
 .services{
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
 }
 .box-100{
     transition:all 0.6s ease;
@@ -348,10 +348,10 @@ h1{
     justify-content: center;
 } */
 #portfolio .text-center .btn:hover{
-    border-bottom: 3px solid var(--darkless);
+    border-bottom: 3px solid var(--darkLess);
 }
 #portfolio .text-center .btn.active{
-    border-bottom: 3px solid var(--darkless);
+    border-bottom: 3px solid var(--darkLess);
     cursor: pointer;
 }
 .bton{
@@ -362,7 +362,7 @@ h1{
 }
 .bton:hover {
     border-bottom: 1px solid var(--dark-color);
-    color: var(--darkless);
+    color: var(--darkLess);
 }
 
   /* Add a dark background color to the active button */
@@ -371,7 +371,7 @@ h1{
 }
 
 .card-body a{
-    color: var(--darkless);
+    color: var(--darkLess);
 } 
 .profile-circel-image-200 img {
     width: 200px;
@@ -436,7 +436,7 @@ h1{
     width: 25%;
     height: 500px;
     margin-top: 100px;
-    color: var(--darkless);
+    color: var(--darkLess);
     background-color: var(--white);
 }
 .fa-regular{
@@ -522,7 +522,7 @@ h4::after{
 #Blog{
     padding-top: 90px;
     padding-bottom: 50px;
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
 }
 
 /* ***************** contact section ********************** */
@@ -544,7 +544,7 @@ footer{
     height: 50px;
     padding-top: 3px;
     text-align: center;
-    background-color: var(--darkless);
+    background-color: var(--darkLess);
     color: var(--white);
 }
 
